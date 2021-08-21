@@ -1,6 +1,6 @@
 {
     "name": "slidev-theme-geist",
-    "version": "0.6.0",
+    "version": "0.6.0-dev",
     "homepage": "https://github.com/nico-bachner/slidev-theme-geist#readme",
     "bugs": {
         "url": "https://github.com/nico-bachner/slidev-theme-geist/issues"
@@ -17,7 +17,7 @@
     ],
     "engines": {
         "node": ">=14",
-        "slidev": ">=0.20"
+        "slidev": ">=0.22.7"
     },
     "slidev": {
         "highlighter": "prism",
@@ -39,7 +39,7 @@
         "release": "standard-version"
     },
     "dependencies": {
-        "@slidev/cli": "^0.20",
+        "@slidev/cli": "^0.22.7",
         "@slidev/theme-default": "^0.19"
     },
     "devDependencies": {
